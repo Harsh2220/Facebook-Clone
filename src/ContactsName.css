@@ -1,0 +1,13 @@
+.ContactsName{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    padding: 7px;
+}
+
+.ContactsName > h3{
+    margin-left: 10px;
+    font-size: medium;
+    font-weight: 500;
+}
+

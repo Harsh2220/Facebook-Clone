@@ -1,0 +1,25 @@
+.Contacts{
+    display: flex;
+    flex-direction: column;
+}
+
+.Contacts_Top{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 25px;
+    align-items: center;
+}
+
+.Contacts_Option{
+    margin: 20px;
+}
+
+.Contacts_Option > .MuiSvgIcon-root{
+    padding: 0px 10px;
+    color: gray;
+}
+
+.Contacts_Top > h3{
+    margin-right: 30px;
+    color: gray;
+}
