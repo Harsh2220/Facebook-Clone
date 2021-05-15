@@ -30,6 +30,3 @@ function StoryReel() {
 }
 
 export default StoryReel;
-
-<img data-imgperflogname="profileCoverPhoto" alt="" class="i09qtzwb rq0escxv n7fi1qx3 pmk7jnqg j9ispegn kr520xx4 datstx6m k4urcfbm" referrerpolicy="origin-when-cross-origin" src=""></img>
-

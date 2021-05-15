@@ -3,44 +3,19 @@ body{
   font-family: inherit;
 }
 
-.img{
-  text-align: center;
-  width:250px;
-  margin: auto;
-  margin-top: 60px;
-}
-
-.container{
+.login{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
-  width: 400px;
-  height: 300px;
+  transform: translate(-50%,-70%);
+}
+
+.login > img{
   text-align: center;
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
-}
-
-p{
-  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 20px;
-  line-height: 22px;
-  padding: 20px;
-}
-
-.input{
-  display: block;
-  margin: 10px auto;
-  width: 350px;
-  height: 40px;
-  border: 1px solid #dddfe2;
-  border-radius: 6px;
-  padding: 5px 8px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  text-align: start;
-  font-size: 17px;
+  width:800px;
 }
 
 .button{
@@ -55,6 +30,9 @@ p{
   cursor: pointer;
   font-family:Arial, Helvetica, sans-serif;
   font-style: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .button:focus{
@@ -65,15 +43,7 @@ p{
   background-color: #2f6deb;
 }
 
-.input:focus{
-  outline: none;
-}
-
-.bottom{
-  color: #1877f2;
-  margin-top: 10px;
-}
-
-a,span{
-  cursor: pointer;
+.button > img {
+  height: 30px;
+  margin-right: 10px;
 }

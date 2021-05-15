@@ -1,6 +1,6 @@
 import firebase from 'firebase';
 
-var firebaseApp = firebase.initializeApp({
+const firebaseApp=  firebase.initializeApp({
     apiKey: "AIzaSyBm1sUTxbx1VCQe0VHH8Y4VzleOoTZPu3Q",
     authDomain: "facebook-clone-e3b2b.firebaseapp.com",
     projectId: "facebook-clone-e3b2b",
@@ -11,5 +11,8 @@ var firebaseApp = firebase.initializeApp({
 });
 
 const db = firebaseApp.firestore();
+const auth = firebase.auth();
+const provider = new firebase.auth.GoogleAuthProvider();
 
+export { auth, provider };
 export default db;

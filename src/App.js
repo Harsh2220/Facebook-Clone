@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import './Navbar';
 import Navbar from './Navbar';
@@ -19,15 +18,13 @@ function App() {
       ) : (
         <>
           <Navbar />
-
           <div className="App_body">
             <Sidebar />
             <Feed />
             <Contacts />
           </div>
         </>
-      )
-      }
+      )}
     </div>
   );
 }

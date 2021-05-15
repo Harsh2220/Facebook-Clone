@@ -16,18 +16,18 @@
 .Post_Topinfo > h3{
     font-size:medium;
     margin-left: 15px;
-    margin-bottom: -20px;
+    font-weight: 500;
 }
 
 .Post_Topinfo > p{
     font-size: small;
     color: gray;
-    margin-bottom: -20px;
-    margin-left: -3px;
+    margin-left: 15px;
 }
 
 .Post_Bottom{
-   margin-top: -20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
 }
 
 .Post_Bottom > p{
@@ -45,7 +45,7 @@
     font-size: medium;
     color: gray;
     cursor: pointer;
-    padding: 5px;    
+    padding: 5px;
 }
 
 .Option{
@@ -53,6 +53,7 @@
     align-items: center;
     justify-content: center;
     flex: 1;
+    padding: 10px;
 }
 
 .Option > p{
